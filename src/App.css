@@ -1,3 +1,18 @@
+.book-header-title {
+  text-align: center;
+  margin: 2rem;
+}
+
+.filters {
+  margin: 1rem;
+}
+
+.filters-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
 .book-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -8,7 +23,12 @@
 .book {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
-  border-radius: 5px;
   padding: 1rem;
+  border-radius: 45px;
+}
+
+.book img {
+  aspect-ratio: 2/3;
+  border-radius: 15px;
+
 }
